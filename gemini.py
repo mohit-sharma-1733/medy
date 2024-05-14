@@ -3,7 +3,7 @@ import PIL.Image
 class GenerativeModelSetup:
     def __init__(self):
         # Configure API key
-        genai.configure(api_key="AIzaSyAwvw9EqC_xf1L9fvejnVDyAaQwXmgjAt0")
+        genai.configure(api_key={API_KEY})
 
         # Set up the model
         generation_config = {
